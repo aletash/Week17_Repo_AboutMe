@@ -1,0 +1,85 @@
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+      
+      li a.active {
+        color: white;
+        background-color: #FBD2C2;
+      }
+      
+      .hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("SelfPortrait copy.jpg");
+  height: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: justify;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: rgb(53, 191, 233);
+}
+
+.hero-text button {
+position: relative;
+  top: 100%;
+  left: 10%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 35px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.hero-text button:hover {
+  background-color: #C5C711;
+  color: white;
+}
+footer {
+  display: grid;
+  align-content: space-evenly;
+  text-align: center;
+  padding: 3px;
+  background-color: #00AFEC;
+  color: white;
+}
+.footer-container {
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+    
